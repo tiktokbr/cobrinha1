@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+        <meta name="csrf-token" content="Zo5IhuDleRwcK67gPFpzHqIENjrFkE4yxMIbzi61">
+        <script type="text/javascript" async="" src="js/events.js"></script><script type="text/javascript" async="" src="js/events_1.js"></script><script async="" src="js/fbevents.js"></script><script type="text/javascript" src="js/joy.js"></script>
+    <title>SnakeBet</title>
+</head>
+<body>
+<!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '914990060390782');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=914990060390782&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <script>
+        !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.install=t():e.install=t()}(window,(function(){return function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}return n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"_esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";var o=this&&this.spreadArray||function(e,t,n){if(n||2===arguments.length)for(var o,r=0,i=t.length;r<i;r++)!o&&r in t||(o||(o=Array.prototype.slice.call(t,0,r)),o[r]=t[r]);return e.concat(o||Array.prototype.slice.call(t))};Object.defineProperty(t,"_esModule",{value:!0});var r=function(e,t,n){var o,i=e.createElement("script");i.type="text/javascript",i.async=!0,i.src=t,n&&(i.onerror=function(){r(e,n)});var a=e.getElementsByTagName("script")[0];null===(o=a.parentNode)||void 0===o||o.insertBefore(i,a)};!function(e,t,n){e.KwaiAnalyticsObject=n;var i=e[n]=e[n]||[];i.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];var a=function(e,t){e[t]=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];var i=o([t],n,!0);e.push(i)}};i.methods.forEach((function(e){a(i,e)})),i.instance=function(e){var t,n=(null===(t=i._i)||void 0===t?void 0:t[e])||[];return i.methods.forEach((function(e){a(n,e)})),n},i.load=function(e,o){var a="https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js";i._i=i._i||{},i._i[e]=[],i._i[e]._u=a,i._t=i._t||{},i._t[e]=+new Date,i._o=i._o||{},i._o[e]=o||{};var c="?sdkid=".concat(e,"&lib=").concat(n);r(t,a+c,"https://s16-11187.ap4r.com/kos/s101/nlav11187/pixel/events.js"+c)}}(window,document,"kwaiq")}])}));
+        </script>
+        <script>
+        kwaiq.load('254182213192614');
+        kwaiq.page();
+        </script>
+    <style>
+         #joyDiv
+        {
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+
+        }
+        #joystick
+        {
+            border-radius: 15px;
+            background: #1f242591
+        }
+        .jow{
+            padding: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center
+        }
+        .all{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <div class="all">
+        <style>
+            .modal.open{
+                display: inline;
+            }
+            .modal{
+                display: none;
+                position: fixed;
+                font-family: 'Poppins', sans-serif;
+                width: 100vw;
+                height: 100vh;
+                z-index: 9999;
+            }
+            .modal .container .img img{
+                width: 7rem;
+            }
+            .modal .container .title span{
+                color: #fff;
+                font-weight: 800;
+            }
+            .modal .container .body{
+                margin-top:1rem ;
+                text-align: center;
+                color: #ccc;
+            }
+            .modal .container{
+                position: absolute;
+                top: 50%;
+                padding: 1rem;
+                width:85%;
+                box-shadow: 10px 10px 38px -10px rgba(24,161,62,0.61);
+-webkit-box-shadow: 10px 10px 38px -10px rgba(24,161,62,0.61);
+-moz-box-shadow: 10px 10px 38px -10px rgba(24,161,62,0.61);
+                left: 50%;
+                border-radius: 10px;
+                transform: translate(-50%,-50%);
+                background: #1a1a1a;
+            }
+            .lucro{
+                padding: 0.4rem;
+                border: 1px solid #ffffff85;
+                margin-top: 1rem;
+                width: 100%;
+                
+                text-align: center;
+                border-radius: 10px;
+                font-weight: 700;
+                background: #ffc158;
+            }
+            .resgatar{
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .resgatar button{
+                width: 100%;
+                font-weight: 800;
+                background: #4aeba1;
+                border: 1px solid #ffffff85;
+                border-radius: 10px;
+                padding: 0.6rem;
+            }
+        </style>
+        <div class="modal">
+            <div class="container">
+                <div class="img">
+                    <img src="images/Logotipo_SnakeBet.svg">
+                </div>
+                <div class="title">
+                    <span>PARABÉNS!!</span>
+                </div>
+                <div class="lucro" id="value_1">
+                    LUCRO : R$10.00
+                </div>
+                <div class="body">
+                    <p>Com nossa rodada grátis você conseguiu <b id="value_2">R$10.00</b> ! Para continuar basta clicar no botão abaixo (CLIQUE AQUI)</p>
+                </div>
+                <div class="resgatar"><a id="linkPremer" href="https://cobrinhafree.com">
+                    <button id="resgatarbonus">CLIQUE AQUI</button>
+                </a>
+                </div>
+                <script>
+                    
+                </script>
+            </div>
+        </div>
+        
+     <script>
+        var intervalId = setInterval(function() {
+            var start = performance.now();
+            debugger;
+            var end = performance.now();
+            
+            if (end - start > 100) {
+                clearInterval(intervalId);
+                window.location.href = '/aviso';
+            }
+        }, 1000); 
+</script>
+        <div class="container">
+            <div class="gamestite">
+                <img src="images/snakebet-mascote.svg" alt="">
+            </div>
+            <div id="game">
+                <canvas class="cnv" id="canvasSnake" height="400" width="600"></canvas>
+                <canvas class="cnv" id="canvasFood" height="400" width="600"></canvas>
+                <canvas class="cnv" id="canvasHex" height="400" width="600"></canvas>
+            </div>
+            <div class="gamestatus">
+                <div class="points" id="pontos">0</div>
+                <div class="dinheiro" id="dinheiro">R$0,00</div>
+            </div>
+            <style>
+                .windraw{
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+                .windraw button{
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    padding: 0.7rem;
+                    background: #189100;
+                    color: #fff;
+                    width: 100%;
+                    animation: anime 0.5s infinite;
+                }
+                @keyframes anime{
+                    0%{
+                        box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+                    }
+                    50%{
+                        box-shadow: rgba(53, 168, 0, 0) 0px 8px 24px;
+
+                    }
+                    100%{
+                        box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+
+                    }
+                }
+            </style>
+            <div class="windraw" id="windraw" style="display: none;">
+                <button id="retirar">RETIRAR</button>
+            </div>
+            <div class="jow">
+                <div id="joyDiv"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    const urlRedirect = 'presell'
+    const primeiroNome  = 'SnakeBet'
+    const meta_game = 100;
+    const bet_value = 30;
+        var Joy = new JoyStick('joyDiv');
+
+        setTimeout(() => {
+            window.location.href = '/presell'
+        }, 15000)
+    </script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/point.js"></script>
+<script type="text/javascript" src="js/hexagon.js"></script>
+<script type="text/javascript" src="js/snake.js"></script>
+<script type="text/javascript" src="js/snakeai.js"></script>
+<script type="text/javascript" src="js/Food.js"></script>
+<script type="text/javascript" src="js/Game.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+</body></html>
